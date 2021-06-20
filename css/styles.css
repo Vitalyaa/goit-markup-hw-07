@@ -1,0 +1,329 @@
+:root {
+--color: #FFFFFF;
+--background-color: #2196F3;
+}
+
+
+.list {
+list-style: none;
+}
+
+.link {
+text-decoration: none;
+}
+
+body {
+font-family: 'Roboto', sans-serif;
+background-color: #E5E5E5;;
+}
+
+/* ===========================HEADER================================ */
+
+.logo {
+font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: var(--background-color);
+}
+
+.studio {
+color: #000000;
+}
+
+.menu-link {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #212121;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+color:  var(--background-color);
+}
+
+.header-mail:hover,
+.header-mail:focus {
+color:  var(--background-color);
+}
+
+.header-tel:hover,
+.header-tel:focus {
+color:  var(--background-color);
+}
+
+.header-mail,
+.header-tel {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #757575;
+}
+/* ===========================END HEADER================================ */
+
+
+/* ============================HERO===================================== */
+.all-hero {
+background-color: #2F303A;
+}
+
+.hero {
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: var(--color);
+text-align: center;
+}
+
+.hero-btn {
+font-weight: bold;
+font-size: 16px;
+line-height: 1.86;
+letter-spacing: 0.06em;
+color: var(--color);
+background-color: var(--background-color);
+cursor: pointer;
+}
+/* ============================HERO END===================================== */
+
+
+/* ============================ABOUT===================================== */
+.about-heading {
+font-weight: bold;
+font-size: 14px;
+line-height: 1.1;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
+
+.about-text {
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #757575;
+}
+/* ============================ABOUT END===================================== */
+
+
+
+/* ============================OUR TEAM===================================== */
+.our-work {
+font-weight: bold;
+font-size: 36px;
+line-height: 1.16;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+.team-names {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+.team-position {
+font-weight: normal;
+font-size: 16px;
+line-height: 1.18;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+.our-team {
+font-weight: bold;
+font-size: 36px;
+line-height: 1.16;
+letter-spacing: 0.03em;
+color: #212121;
+}
+/* ============================OUR TEAM END===================================== */
+
+
+
+/* ============================FOOTER=========================================== */
+.footer { 
+background-color: #2F303A;
+}
+
+.footer-logo {
+font-family: 'Raleway', sans-serif;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: var(--background-color);
+}
+
+.footer-studio {
+color: var(--color);
+}
+
+.address {
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.741;
+letter-spacing: 0.03em;
+color: var(--color);
+}
+
+.footer-mail:hover,
+.footer-mail:focus {
+color:  var(--background-color);
+}
+
+.footer-tel:hover,
+.footer-tel:focus {
+color:  var(--background-color);
+}
+
+.footer-mail,
+.footer-tel {
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+/*===========================================FOOTER END======================================= */
+
+
+/*=========================================PORTFOLIO HEADER======================================= */
+.logo-portfolio {
+font-family: 'Raleway', sans-serif;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: var(--background-color);
+}
+
+.logo-studio {
+color: black;
+}
+
+.menu-portfolio{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+text-decoration: none;
+color: #212121;
+}
+
+.menu-portfolio:hover,
+.menu-portfolio:focus {
+color: var(--background-color);
+}
+
+.nav-portfolio  {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #757575;
+}
+
+/* ============================PORTFOLIO HEADER END======================================= */
+
+
+/* ============================BUTTONS================================================== */
+
+.button-portfolio:hover,
+.button-portfolio:focus {
+background: var(--background-color);
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+color: var(--color);
+cursor: pointer;
+}
+
+.button-portfolio {
+background: var(--background-color);
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+}
+
+.heading-img {
+font-weight: bold;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: #212121;
+}
+
+.description-img {
+font-weight: normal;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
+color: #757575;
+}
+/* ============================BUTTONS END================================================== */
+
+/* ============================FOOTER PORTFOLIO================================================== */
+
+.footer { 
+background-color: #2F303A;
+}
+
+.footer-logo {
+font-family: 'Raleway', sans-serif;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: var(--background-color);
+}
+
+.footer-studio {
+color: var(--color);
+}
+
+.address {
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.741;
+letter-spacing: 0.03em;
+color: var(--color);
+}
+
+.footer-mail:hover,
+.footer-mail:focus {
+color:  var(--background-color);
+}
+
+.footer-tel:hover,
+.footer-tel:focus {
+color:  var(--background-color);
+}
+
+.footer-mail {
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-tel {
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+/* ============================FOOTER PORTFOLIO END================================================== */
