@@ -30,10 +30,22 @@
                     <li class="menu-item list"><a class="menu-link link" href="./index.html">Контакты</a></li>
                 </ul>
             </nav>
-            <ul class="header-contacts list">
-                <li class="menu-contacts"><a class="header-mail link"
-                        href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li class="menu-contacts"><a class="header-tel link" href="tel:380961111111">+38 096 111 11 11</a>
+            <ul class="contact-list list">
+                <li class="contact-header">
+                    <a href="mailto:info@devstudio.com" class="contact-link link">
+                        <svg class="icon-item" width="16" height="12">
+                            <use href="./img/icons.svg#icon-envelope"></use>
+                        </svg>
+                        info@devstudio.com
+                    </a>
+                </li>
+                <li class="contact-header">
+                    <a href="tel:+380961111111" class="contact-link link">
+                        <svg class="icon-item" width="10" height="16">
+                            <use href="./img/icons.svg#icon-smartphone"></use>
+                        </svg>
+                        +38 096 111 11 11
+                    </a>
                 </li>
             </ul>
         </div>
@@ -135,8 +147,8 @@
     <!--FOOTER-->
 
     <footer class="footer link">
-        <div class="container">
-            <a href="./index.html" class="footer-logo">Web<span class="brand">Studio</span></a>
+        <div class="container socials-footer-list">
+            <a class="footer-logo" href="./index.html">Web<span class="brand">Studio</span></a>
             <address>
                 <ul class="list">
                     <li>
@@ -151,6 +163,39 @@
                     </li>
                 </ul>
             </address>
+            <div class="footer-socials">
+                <h2 class="socials-footer-title">присоединяйтесь</h2>
+                <ul class="socials-footer-list list">
+                    <li class="socials-list">
+                        <a class="socials-footer-icons">
+                            <svg class="social-icon-footer" width="20px" height="20px">
+                                <use href="./img/icons.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="socials-list">
+                        <a class="socials-footer-icons">
+                            <svg class="social-icon-footer" width="20px" height="20px">
+                                <use href="./img/icons.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="socials-list">
+                        <a class="socials-footer-icons">
+                            <svg class="social-icon-footer" width="20px" height="20px">
+                                <use href="./img/icons.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="socials-list">
+                        <a class="socials-footer-icons">
+                            <svg class="social-icon-footer" width="20px" height="20px">
+                                <use href="./img/icons.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </footer>
 </body>
