@@ -391,8 +391,6 @@ section {
     fill: var(--header-and-color-white);
     background-color: var(--background-color);
 }
-    
-
 /* ==========OUR TEAM END========== */
 
 
@@ -421,6 +419,12 @@ section {
     margin-right: 0;
 }
 
+.list-customers:focus,
+.list-customers:hover {
+    color: var(--background-color);
+    fill: var(--background-color);
+}
+
 .box-company-icons {
     display: flex;
     box-sizing: border-box;
@@ -433,17 +437,20 @@ section {
     cursor: pointer;
 }
 
-.box-company-icons:hover,
-.box-company-icons:hover {
-    color: var(--background-color);
-    fill: var(--background-color);
-}
 
 .box-company-icons:hover,
+.box-company-icons:focus {
+    fill: var(--background-color);
+    color: var(--background-color);
+}
+
 .box-company-icons:hover {
     border: 1px solid;
 }
 
+.box-company-icons:focus {
+    border: 1px solid;
+}
 
 /* ==========REGULAR CUSTOMERS END========== */
 
@@ -455,6 +462,10 @@ section {
     background-color: var(--hero-footer-background-color);
     padding-top: 60px;
     padding-bottom: 60px;
+}
+
+.conteiner-footer-flex {
+    display: flex;
 }
 
 .footer-contacts:hover,
@@ -531,6 +542,12 @@ section {
     border-radius: 50%;
     justify-content: center;
     align-items: center;
+    border-color: var(--background-color);
+}
+
+.socials-footer-icons:hover,
+.socials-footer-icons:focus,{
+    background-color: ;
 }
 
 .social-icon-footer {
@@ -542,6 +559,7 @@ section {
     background-color: var(--background-color);
     border-radius: 50%;
 }
+
 
 /*==========FOOTER END========== */
 
