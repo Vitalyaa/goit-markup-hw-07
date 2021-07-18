@@ -454,15 +454,68 @@
     <!-- BACKDROP -->
 
     <div class="backdrop is-hidden" data-modal>
-        <div class="modal">
+        <form class="modal">
             <button type="button" class="close-button" data-modal-close>
                 <svg class="icon-close" width="11" height="11">
                     <use href="./img/icons.svg#icon-close"></use>
                 </svg>
             </button>
-        </div>
+            <p class="backdrop-title">Оставьте свои данные, мы вам перезвоним</p>
+            <label class="label-form">
+                <span class="label-name">Имя</span>
+                <div class="div-position">
+                    <input class="input-form" type="text" name="name" required>
+                    <svg class="backdrop-svg" weight="18" height="18">
+                        <use href="./img/icons.svg#icon-person"></use>
+                    </svg>
+                    </input>
+                </div>
+            </label>
+
+            <label class="label-form">
+                <span class="label-name">Телефон</span>
+                <div class="div-position">
+                    <input class="input-form" type="text" name="name" required>
+                    <svg class="backdrop-svg" weight="18" height="18">
+                        <use href="./img/icons.svg#icon-phone-black"></use>
+                    </svg>
+                    </input>
+                </div>
+            </label>
+
+            <label class="label-form">
+                <span class="label-name">Почта</span>
+                <div class="div-position">
+                    <input class="input-form" type="text" name="name" required>
+                    <svg class="backdrop-svg" weight="18" height="18">
+                        <use href="./img/icons.svg#icon-email-black"></use>
+                    </svg>
+                    </input>
+                </div>
+            </label>
+
+            <label class="label-comment" for="comment">Комментарий</label>
+            <textarea class="entry-field" name="comment" id="comment" placeholder="Введите текст"></textarea>
+
+            <label for="checkbox" class="label-checkbox">
+                <input type="checkbox" name="policy" id="checkbox" required class="checkbox">
+                <span class="policy-checkbox">
+                    <svg class="check" weight="16" height="15">
+                        <use href="./img/icons.svg#icon-check-mark"></use>
+                    </svg>
+                </span>
+                <p class="about-mailing">
+                    Соглашаюсь с рассылкой и принимаю
+                </p>
+                <a href="#" class="underline">Условия договора</a>
+            </label>
+
+            <button type="submit" class="button submit">Отправить</button>
+
+        </form>
     </div>
-    <script src="./js/modal.js"></script>
+    <script src="./js/modal.js">
+    </script>
 </body>
 
 </html>
