@@ -1113,7 +1113,7 @@ margin-top: 15px;
   top: 50%;
   left: 50%;
   width: 528px;
-  height: 85%;
+  height: ;
   transform: translate(-50%,-50%);
   background-color: var(--header-and-color-white);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -1270,13 +1270,11 @@ margin-top: 15px;
     display: inline-block;
     vertical-align: middle;
     background-color: var(--header-and-color-white);
-    fill: var(--header-and-color-white);
-    stroke: var(--background-color); 
+    fill: var(--background-color);
 }
 
 .checkbox:checked + .policy-checkbox {
-    background-color: var(--background-color);
-    background-image: url(./img/icons.svg#icon-check-mark);
+    background-color: var(--header-and-color-white);
     background-size: contain;
     background-origin: content-box;
 }
@@ -1311,6 +1309,7 @@ margin-top: 15px;
     cursor: pointer;
     background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin-left: 170px;
+    margin-bottom: 49px;
 }
 
 .submit {
