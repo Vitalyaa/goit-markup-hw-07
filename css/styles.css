@@ -1184,17 +1184,13 @@ margin-top: 15px;
     padding-left: 45px;
     cursor: pointer;
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    outline: 0;
 }
 
 .input-form:focus,
 .input-form:hover {
-    border-color: 1px solid var(--background-color); 
-    color: var(--background-color);
-    fill: var(--background-color);
+    border: 1px solid var(--background-color); 
+    color: var(--heading-color);
 }
-
-
 
 .backdrop-svg {
     position: absolute;
@@ -1204,6 +1200,8 @@ margin-top: 15px;
     width: 18px;
     height: 18px;
 }
+
+
 
 .label-comment {
     display: block;
@@ -1230,10 +1228,14 @@ margin-top: 15px;
 
 .entry-field:hover,
 .entry-field:focus {
-    border-color: 1px solid var(--background-color);
-    outline: 0;
-    fill: var(--background-color);
+    border: 1px solid var(--background-color); 
+    color: var(--heading-color);
 }
+
+.input-form:focus + .backdrop-svg {
+fill: var(--background-color);
+}
+
 
 .modal-checkbox-label {
     display: flex;
@@ -1244,7 +1246,6 @@ margin-top: 15px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--p-color);
-
 }
 
 .checkbox {
