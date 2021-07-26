@@ -1,0 +1,18 @@
+@import "./utils/variables";
+
+// BASE
+@import "./base/common";
+@import "./base/container";
+
+// LAYOUT
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/about";
+@import "./layout/our-work";
+@import "./layout/our-team";
+@import "./layout/regular-customers";
+@import "./layout/footer";
+@import "./layout/header-portfolio";
+@import "./layout/buttons";
+@import "./layout/pictures-and-text";
+@import "./layout/backdrop";
