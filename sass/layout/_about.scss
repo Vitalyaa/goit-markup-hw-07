@@ -23,7 +23,7 @@
     width: 270px;
 }
 
-.about-section {
+.about__section {
     display: flex;
     padding-bottom: 0;
     box-sizing: border-box;
@@ -32,7 +32,7 @@
     margin-left: -30px;
 }  
 
-.section-list {
+.about__section-list {
     flex-basis: calc((100% - 120px) / 4);
     margin-left: 30px;
 }
@@ -41,15 +41,15 @@
     padding-bottom: 10px;
 } 
 
-.functional-list {
+.about__functional-list {
     display: flex;
 }
 
-.functional-list-item:nth-child(-n + 3) {
+.about__functional-list-item:nth-child(-n + 3) {
     margin-right: 30px;
 } 
 
-.functional-box {
+.about__functional-box {
     display: flex;
     justify-content: center;
     align-items: center;
